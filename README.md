@@ -35,3 +35,27 @@ nen tang dam may.
 Huong dan cai dat frontend, backend va
 cac bien moi truong se duoc cap nhat
 khi hoan thanh cac phan tiep theo.
+
+
+## Cau 5 - Docker Backend
+
+Docker Hub:
+https://hub.docker.com/r/lehuy7940/236126_legiahuy-backend
+
+Docker image:
+lehuy7940/236126_legiahuy-backend:1.0
+
+### Build Backend
+docker build -t lehuy7940/236126_legiahuy-backend:1.0 ./backend
+
+### Run Backend
+docker run -d --name foods-backend-test -p 5001:5000 --env-file backend/.env lehuy7940/236126_legiahuy-backend:1.0
+
+### Kiem tra Backend
+curl http://localhost:5001/health
+
+### Bien moi truong
+MONGODB_URI: Chuoi ket noi MongoDB Atlas
+PORT: Cong Backend, mac dinh 5000
+
+Khong dua file .env hoac mat khau len GitHub hay Docker image.
