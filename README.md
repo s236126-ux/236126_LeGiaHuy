@@ -59,3 +59,35 @@ MONGODB_URI: Chuoi ket noi MongoDB Atlas
 PORT: Cong Backend, mac dinh 5000
 
 Khong dua file .env hoac mat khau len GitHub hay Docker image.
+
+
+## Cau 6 - Docker Frontend
+
+### Docker Hub
+https://hub.docker.com/r/lehuy7940/236126_legiahuy-frontend
+
+### Docker Image
+lehuy7940/236126_legiahuy-frontend:1.0
+
+### Build Frontend
+docker build -t lehuy7940/236126_legiahuy-frontend:1.0 ./frontend
+
+### Run Frontend
+docker run -d \
+  --name foods-frontend-test \
+  --add-host=host.docker.internal:host-gateway \
+  -e BACKEND_URL=http://host.docker.internal:5000 \
+  -p 8080:80 \
+  lehuy7940/236126_legiahuy-frontend:1.0
+
+### Kiem tra
+Frontend: http://localhost:8080
+
+Backend API qua Nginx:
+http://localhost:8080/api/foods
+
+### Ghi chu
+- Frontend su dung React va Vite.
+- Nginx phuc vu giao dien va proxy API.
+- BACKEND_URL duoc cau hinh khi chay container.
+- Khong dua thong tin bi mat vao Docker image.
