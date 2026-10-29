@@ -142,3 +142,31 @@ MongoDB Atlas duoc cau hinh qua MONGODB_URI
 tren Render.
 
 Khong luu mat khau vao repository.
+
+
+## Cau 9 - Kiem tra tong the va hoan thien
+
+GitHub:
+https://github.com/s236126-ux/236126_LeGiaHuy
+
+Docker Backend:
+https://hub.docker.com/r/lehuy7940/236126_legiahuy-backend
+
+Docker Frontend:
+https://hub.docker.com/r/lehuy7940/236126_legiahuy-frontend
+
+Render Frontend:
+https://web-236126.onrender.com
+
+Render Backend:
+https://api-236126.onrender.com/api/foods
+
+Backend Health:
+https://api-236126.onrender.com/health
+
+MongoDB Atlas:
+Database: 236126_LeGiaHuy
+Collection: foods
+
+Kiem tra Backend /health: OK
+Ket noi MongoDB Atlas: Thanh cong
