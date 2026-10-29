@@ -112,3 +112,33 @@ Ghi chu:
 Frontend da trien khai thanh cong.
 Ket noi Backend API se duoc hoan thien
 sau khi trien khai Backend o Cau 8.
+
+
+## Cau 8 - Trien khai Backend Render
+
+Backend:
+https://api-236126.onrender.com
+
+Backend Health:
+https://api-236126.onrender.com/health
+
+Backend Foods API:
+https://api-236126.onrender.com/api/foods
+
+Frontend:
+https://web-236126.onrender.com
+
+Docker Backend:
+lehuy7940/236126_legiahuy-backend:1.0
+
+Docker Frontend:
+lehuy7940/236126_legiahuy-frontend:1.1
+
+Backend PORT: 10000
+Frontend PORT: 80
+
+Frontend su dung BACKEND_URL de goi Backend.
+MongoDB Atlas duoc cau hinh qua MONGODB_URI
+tren Render.
+
+Khong luu mat khau vao repository.
