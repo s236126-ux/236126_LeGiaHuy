@@ -91,3 +91,24 @@ http://localhost:8080/api/foods
 - Nginx phuc vu giao dien va proxy API.
 - BACKEND_URL duoc cau hinh khi chay container.
 - Khong dua thong tin bi mat vao Docker image.
+
+
+## Cau 7 - Trien khai Frontend tren Render
+
+Ten dich vu: web-236126
+
+Frontend URL:
+https://web-236126.onrender.com
+
+Docker Image:
+lehuy7940/236126_legiahuy-frontend:1.0
+
+Region: Singapore
+Compute: Free
+
+Trang thai: Deploy succeeded - Live
+
+Ghi chu:
+Frontend da trien khai thanh cong.
+Ket noi Backend API se duoc hoan thien
+sau khi trien khai Backend o Cau 8.
